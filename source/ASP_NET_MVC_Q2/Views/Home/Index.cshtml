@@ -7,6 +7,37 @@
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
+@*使用 data.json 為資料來源
+
+    瀏覽器輸入 http://{host}/Product?page={page}，使用表格呈現指定分頁數 {page} 的資料集結果 (樣式不拘，可以自己設計)
+
+    每頁呈現五筆
+
+    表格只要呈現以下欄位
+
+    Id - 產品唯一代號
+    ProductName - 產品名稱
+    Locale - 地區
+    CreateDate - 建立時間
+    需要一個分頁 UI (樣式不拘，可以自己設計)
+
+    瀏覽器輸入 http://{host}/Product/Detail/{id}，呈現該筆 Id 的資料詳細結果 (樣式不拘，可以自己設計)
+
+    只要呈現以下欄位
+
+    ProductName - 產品名稱
+    Locale - 地區
+    Price - 依地區格式化的貨幣字串，若無法轉換則呈現 '-'
+    PromotePrice - 依地區格式化的貨幣字串，若無法轉換則呈現 '-'
+    CreateDate - 建立時間
+    Locale 對應地區說明
+
+    US - Unite State
+    DE - Germany
+    CA - Canada
+    ES - Spain
+    FR - France
+    JP - Japan*@
 
 <div class="row">
     <div class="col-md-4">
